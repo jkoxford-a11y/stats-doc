@@ -1,6 +1,6 @@
-site_name: Statistics 224 Documentation
-site_description: Complete reference guide for Statistics 224 course
-site_author: Jon Oxford
+site_name: Awesome-Sauce Stats 224
+site_description: Curated Stats 224 Doc for Behavioral and Natural Sciences
+site_author: Jon Oxford, Ph.D.
 site_url: https://jkoxford-a11y.github.io/stats-doc/
 
 theme:
@@ -8,18 +8,20 @@ theme:
   palette:
     # Light mode
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: blue
+      accent: amber
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     # Dark mode
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: blue
+      accent: amber
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  logo: assets/unicorn-icon.png
+  favicon: assets/unicorn-icon.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -40,6 +42,12 @@ extra:
     - icon: fontawesome/solid/building-columns
       link: https://www.ccis.edu/
       name: Columbia College
+  generator: false
+
+copyright: >
+  Created by Herr Prof. Dr. Awesome-Sauce (Jon Oxford, Ph.D.) | 
+  No Unicorns Were Harmed in the Making of This Documentation | 
+  &copy; 2025 Columbia College of Missouri
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -74,8 +82,11 @@ nav:
   - Which Test?:
       - Decision Tree: which-test/decision-tree.md
       - Common Scenarios: which-test/scenarios.md
-  - Effect Sizes:
-      - Reference Guide: effect-sizes/reference.md
+  - Assumptions & Diagnostics:
+      - Understanding Normality: assumptions/understanding-normality.md
+      - Checking Normality: assumptions/checking-normality.md
+      - Other Assumptions: assumptions/other-assumptions.md
+      - When Assumptions Fail: assumptions/when-assumptions-fail.md
   - Interactive Modules:
       - Overview: modules/overview.md
       - Normality Series: modules/normality.md
@@ -106,6 +117,8 @@ nav:
       - Overview: chi-square/overview.md
       - Test of Independence: chi-square/independence.md
       - Goodness of Fit: chi-square/goodness-fit.md
+  - Effect Sizes:
+      - Reference Guide: effect-sizes/reference.md
   - Resources:
       - Datasets: resources/datasets.md
       - Workflows: resources/workflows.md

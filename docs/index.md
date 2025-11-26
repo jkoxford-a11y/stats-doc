@@ -1,7 +1,7 @@
-# Welcome to Statistics 224 Documentation
+# Welcome to Statistics for Behavioral/Natural Science 224
 
-!!! info "Complete Reference Guide"
-    This comprehensive documentation provides everything you need for Statistics 224, from fundamental concepts to advanced statistical analyses.
+!!! info "Curated Stats 224 Doc"
+    This comprehensive documentation provides everything you need for Statistics for Behavioral/Natural Science 224, from fundamental concepts to advanced statistical analyses.
 
 ## 🚀 Quick Navigation
 
@@ -16,8 +16,9 @@
 → Jump to the specific test workflow
 
 ### Checking Assumptions?
-→ See [Effect Sizes Reference](effect-sizes/reference.md)  
-→ Learn about diagnostics in each test section
+→ See [Understanding Normality](assumptions/understanding-normality.md)  
+→ Check [Assumption workflows](assumptions/checking-normality.md)  
+→ Learn about [Effect Sizes](effect-sizes/reference.md)
 
 ### Need Practice?
 → Explore [Interactive Learning Modules](modules/overview.md)  
@@ -27,6 +28,14 @@
 ---
 
 ## 📚 Main Sections
+
+### [Assumptions & Diagnostics](assumptions/understanding-normality.md)
+Essential assumption checking:
+
+- **Understanding Normality** - Conceptual foundation
+- **Checking Normality** - Practical workflows
+- **Other Assumptions** - Independence, homogeneity, linearity
+- **When Assumptions Fail** - Transformations and alternatives
 
 ### [Parametric Tests](parametric/t-tests/overview.md)
 Complete workflows for:
@@ -103,9 +112,9 @@ Follow the sections in order, working through examples
 
 ## 📖 About This Documentation
 
-**Course**: Statistics 224 - Statistical Methods  
+**Course**: Statistics for Behavioral/Natural Science 224  
 **Institution**: Columbia College of Missouri  
-**Author**: Jon Oxford, Associate Professor of Psychology
+**Author**: Jon Oxford, Ph.D. (Herr Prof. Dr. Awesome-Sauce)
 
 This documentation integrates:
 
@@ -114,7 +123,7 @@ This documentation integrates:
 - Interactive learning modules
 - Professional best practices
 
-**Last Updated**: November 2024
+**Last Updated**: November 2025
 
 ---
 
