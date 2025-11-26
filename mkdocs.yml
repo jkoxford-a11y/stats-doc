@@ -1,0 +1,112 @@
+site_name: Statistics 224 Documentation
+site_description: Complete reference guide for Statistics 224 course
+site_author: Jon Oxford
+site_url: https://jkoxford-a11y.github.io/stats-doc/
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+
+repo_url: https://github.com/jkoxford-a11y/solid-carnival
+repo_name: Interactive Modules
+
+extra:
+  social:
+    - icon: fontawesome/solid/building-columns
+      link: https://www.ccis.edu/
+      name: Columbia College
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Quick Start:
+      - Getting Started: quick-start/getting-started.md
+      - R Setup: quick-start/r-setup.md
+  - Which Test?:
+      - Decision Tree: which-test/decision-tree.md
+      - Common Scenarios: which-test/scenarios.md
+  - Effect Sizes:
+      - Reference Guide: effect-sizes/reference.md
+  - Interactive Modules:
+      - Overview: modules/overview.md
+      - Normality Series: modules/normality.md
+      - Regression Series: modules/regression.md
+      - Other Modules: modules/other.md
+  - Parametric Tests:
+      - T-Tests:
+          - Overview: parametric/t-tests/overview.md
+          - One-Sample: parametric/t-tests/one-sample.md
+          - Independent: parametric/t-tests/independent.md
+          - Paired: parametric/t-tests/paired.md
+      - ANOVA:
+          - Overview: parametric/anova/overview.md
+          - One-Way: parametric/anova/one-way.md
+          - Two-Way: parametric/anova/two-way.md
+          - Repeated Measures: parametric/anova/repeated.md
+      - Regression:
+          - Overview: parametric/regression/overview.md
+          - Simple Regression: parametric/regression/simple.md
+          - Multiple Regression: parametric/regression/multiple.md
+          - Diagnostics: parametric/regression/diagnostics.md
+  - Non-Parametric Tests:
+      - Overview: non-parametric/overview.md
+      - Mann-Whitney U: non-parametric/mann-whitney.md
+      - Kruskal-Wallis: non-parametric/kruskal-wallis.md
+      - Wilcoxon: non-parametric/wilcoxon.md
+  - Chi-Square:
+      - Overview: chi-square/overview.md
+      - Test of Independence: chi-square/independence.md
+      - Goodness of Fit: chi-square/goodness-fit.md
+  - Resources:
+      - Datasets: resources/datasets.md
+      - Workflows: resources/workflows.md
+      - Archives: resources/archives.md
